@@ -1,1 +1,0 @@
-git+https://github.com/domenukk/enochecker.git@quart

@@ -11,5 +11,4 @@ COPY ./requirements.txt /checker/requirements.txt
 RUN python3 -m pip install -r requirements.txt
 COPY . .
 
-#ENTRYPOINT ["tail", "-f", "/dev/null"]
-ENTRYPOINT ["hypercorn", "-b", ":::3031", "-w", "100", "testchecker:app" ]
+ENTRYPOINT ["hypercorn", "-b", ":::3031", "-b", "0.0.0.0:3031", "-w", "8", "testchecker:app" ]

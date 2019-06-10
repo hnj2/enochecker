@@ -1,3 +1,5 @@
 quart
 requests #aiohttp
 pymongo  #motor
+jsons
+aiohttp

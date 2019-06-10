@@ -82,7 +82,7 @@ optional arguments:
   -p [PORT], --port [PORT]
                         The port the checker should attack
 
-````
+```
 
 ## Why use it at all?
 
